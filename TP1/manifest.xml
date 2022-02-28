@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
     <meta>
-        <key>RPCW:TP1</key>
-        <title>
-        TPC1
-        </title>
-        <subtitle>
-        Criação de uma página web estática sobre Jacarés.
-        </subtitle>
-        <bdate>
+        <titulo>
+        TPC1 - Criação de uma página html estática.
+        </titulo>
+        <data>
         17/02/2022
-        </bdate>
-        <edate>
-        21/02/2022
-        </edate>
-        <supervisor>José Carlos Ramalho</supervisor>
-        <uc>Representação e Processamento de Conhecimento na Web (RPCW)</uc>
+        </data>
+        <autor>
+            <id>PG47167</id>
+            <nome>Eduardo José Arantes Silva</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
     </meta>
-    <workteam>
-        <worker number="PG47167">
-            <name>Eduardo José Arantes Silva</name>
-            <email>pg47167@alunos.uminho.pt</email>
-        </worker>
-    </workteam>
-    <abstract>
-        Neste TPC1 foi pedido a criação de uma página html sobre um tema à escolha. No caso foi escolhido o tema Jacarés, onde fo desenvolvida uma pequena descrição deste animal, e a apresentação das suas espécies.
-    </abstract>
-    <results>
-
-    </results>
+    
+    <resumo>
+        <p>Criação de uma página web estática.</p>
+        <p>A mesma possuí informação geral sobre Jacarés..</p>
+    </resumo>
+    <resultados>
+        <resultado><url>page.css</url><texto>Ficheiro css que permite fazer algumas alterações estéticas no código html</texto></resultado>
+        <resultado><url>page.html</url><texto>Código HTML gerado para a criação da página web.</texto></resultado>
+    </resultados>
 </xml>
