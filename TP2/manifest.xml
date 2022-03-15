@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <meta>
+        <titulo>
+        TPC2 - Criação de servidor, gestor de páginas web
+        </titulo>
+        <data>
+        27/02/2022
+        </data>
+        <autor>
+            <id>PG47167</id>
+            <nome>Eduardo José Arantes Silva</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    
+    <resumo>
+        <p>Criação de um servidor, capaz de gerir várias páginas web.</p>
+        <p>O conteúdo de cada página web foi extraído, de um dataset com filmes.</p>
+        <p>A extração do conteúdo do dataset foi feito através de um script python, que criou também as páginas web em html.</p>
+        <p>Numa página inicial é possível ver a lista total de todos os filmes possíveis. Em cada filme, vemos informação relativa aos atores e géneros do mesmo.</p>
+    </resumo>
+    <resultados>
+        <resultado><url>cinemaATP.json</url><texto>Dataset</texto></resultado>
+        <resultado><url>main.py</url><texto>Script python responsável pela extração do conteúdo e criar as páginas web necessárias ao servidor.</texto></resultado>
+        <resultado><url>server.js</url><texto>Servidor que corre todo o sistema.</texto></resultado>
+    </resultados>
+</xml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <meta>
+        <titulo>
+        TPC3 - Criação de servidor, gestor de páginas web com o uso de uma API.
+        </titulo>
+        <data>
+        11/03/2022
+        </data>
+        <autor>
+            <id>PG47167</id>
+            <nome>Eduardo José Arantes Silva</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    
+    <resumo>
+        <p>Servidor que apresenta informações relativas a uma escola de música.</p>
+        <p>Informação retirada de um REST API.</p>
+        <p>A REST API é hospedada na própria máquina, na porta 3000, e o servidor na porta 4000.</p>
+    </resumo>
+    <resultados>
+        <resultado><url>db.json</url><texto>Dataset</texto></resultado>
+        <resultado><url>server.js</url><texto>Servidor que consome a REST API para retirar informações.</texto></resultado>
+        <resultado><url>package-lock.json</url><texto>Ficheiro com todas as dependências do servidor.</texto></resultado>
+    </resultados>
+</xml>
