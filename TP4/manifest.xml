@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <meta>
+        <titulo>
+        TPC4 - Criação de um servidor, gestor de uma TODO List.
+        </titulo>
+        <data>
+        22/03/2022
+        </data>
+        <autor>
+            <id>PG47167</id>
+            <nome>Eduardo José Arantes Silva</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    
+    <resumo>
+        <p>Servidor que apresenta informações sobre uma TODOList.</p>
+        <p>Informação da TODOLIST guardada e retirada numa REST API.</p>
+        <p>A REST API é hospedada na própria máquina, na porta 3000, e o servidor na porta 4000.</p>
+    </resumo>
+    <resultados>
+        <resultado><url>db.json</url><texto>Base de dados que permite guardar a informação da TODOList</texto></resultado>
+        <resultado><url>server.js</url><texto>Servidor que faz a gestão da informação. Utiliza métodos GET e POST para aceder/adicionar informação à base de dados.</texto></resultado>
+        <resultado><url>server.js</url><texto>Ficheiro JavaScript que permite o acesso a produtos estáticos.</texto></resultado>
+        <resultado><url>package-lock.json</url><texto>Ficheiro com todas as dependências do servidor.</texto></resultado>
+    </resultados>
+</xml>

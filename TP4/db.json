@@ -1,0 +1,22 @@
+{
+  "todolist": [
+    {
+      "dataLimite": "2022-03-28T20:07",
+      "responsavel": "Eduardo",
+      "descricao": "Fazer TPC de RPCW",
+      "tipo": "Alto",
+      "estado": "Finalizado",
+      "dataCriacao": "2022-03-21T20:08",
+      "id": 1
+    },
+    {
+      "dataLimite": "2022-03-31T09:04",
+      "responsavel": "José Carlos",
+      "descricao": "Fazer o TPC de RPCW",
+      "tipo": "Olá",
+      "estado": "Cancelado",
+      "dataCriacao": "2022-03-22T09:05",
+      "id": 2
+    }
+  ]
+}
