@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Lista de Músicas da Provincia #{prov}
+    meta(charset="utf-8")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 Lista de Músicas da Provincia #{prov}
+    table
+        tr 
+            th Id 
+            th Título
+
+        each m in musicas
+            tr
+                td 
+                    a(href="/musicas/"+m.id)= m.id
+                td= m.tit

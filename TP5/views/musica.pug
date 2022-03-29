@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Música #{musica.id}
+    meta(charset="utf-8")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 Música #{musica.id}
+    
+    p 
+        b ID: 
+        span= musica.id
+    p 
+        b Titulo: 
+        span= musica.tit
+    p 
+        b Músico: 
+        span= musica.musico
+    p 
+        b Província: 
+        a(href="/musicas/prov/"+musica.prov)= musica.prov
+
+    p 
+        a(href= '/musicas') Voltar
