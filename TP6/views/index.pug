@@ -1,0 +1,51 @@
+extends layout
+
+block content
+  div(style="margin: 20px")
+    div(class="w3-container w3-teal")
+      h3 Inserir Ficheiro 
+    br
+    form(action="/files",method="post", enctype="multipart/form-data")
+      label(class="w3-text-teal")
+        b Selecionar Ficheiro 
+      input(class="w3-input w3-border w3-light-grey" type="file", name="file")
+      div 
+        label(class="w3-text-teal")
+          b Descrição
+        input(class="w3-input w3-border w3-light-grey" type="text", name="text")
+      br
+      div
+        input(class="w3-btn w3-blue-grey" type="submit", value="Adiconar")
+        br
+        br 
+        input(class="w3-btn w3-blue-grey" type="reset", name="Limpar Opções")
+
+    hr
+    div(class="w3-text-teal")
+      h2 Lista de Ficheiros 
+    table(class="w3-table w3-bordered")
+      tr
+        th Ficheiro 
+        th Tamanho 
+        th Tipo 
+        th Data 
+        th Descrição
+        th
+      
+      each file in files
+        tr
+          td
+            a(href="/download/"+file.file)=file.file
+          td=file.size
+          td=file.type 
+          td=file.date
+          td=file.text
+          td
+            form(action="/delete/" + file.file, method="post")
+              input(type="submit", value="Eliminar")
+
+
+    hr
+    footer(class="w3-container w3-teal")
+      address Gerado por Eduardo Silva em #{date}
+        
