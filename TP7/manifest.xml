@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <meta>
+        <titulo>
+        TPC7 - CLAV: Classificação e Avaliação da Informação Pública.
+        </titulo>
+        <data>
+        14/04/2022
+        </data>
+        <autor>
+            <id>PG47167</id>
+            <nome>Eduardo José Arantes Silva</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    
+    <resumo>
+        <p>Criação de uma aplicação web capaz de extrair informação do CLAV e apresentar ao utilizador.</p>
+        <p>É possível visualizar todas as relações entre as classes, assim como os seus descendentes e relações entre os mesmos.</p>
+    </resumo>
+    <resultados>
+        <resultado><url>app.js</url><texto>Ficheiro JavaScrip principal para a aplicação.</texto></resultado>
+        <resultado><url>/bin</url><texto>Executável do servidor.</texto></resultado>
+        <resultado><url>package.json</url><texto>Dependências da aplicação.</texto></resultado>
+        <resultado><url>package-lock.json</url><texto>Dependências da aplicação.</texto></resultado>
+        <resultado><url>/views</url><texto>Pasta com os ficheiros responsáveis pelo frontend da aplicação.</texto></resultado>
+        <resultado><url>/routes</url><texto>Pasta com os ficheiros responsáveis pelo route do servidor.</texto></resultado>
+        <resultado><url>/node_modules</url><texto>Dependências da aplicação.</texto></resultado>
+        <resultado><url>/public</url><texto>Armazenamento de ficheiros estáticos.</texto></resultado>
+    </resultados>
+</xml>

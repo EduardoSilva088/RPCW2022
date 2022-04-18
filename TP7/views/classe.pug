@@ -1,0 +1,29 @@
+extends layout
+
+block content
+
+    a(href="/")= "Página Inicial"
+    br
+    if classe.pai.codigo != undefined
+        a(href="/classe/"+classe.pai.codigo)= "Página Anterior"
+
+    h1 Classe: #{classe.titulo} - #{classe.codigo}
+    p Descrição: #{classe.descricao}
+
+    
+
+    if classe.filhos.length > 0
+        h1 Filhos
+
+        ul
+        each filho in classe.filhos
+            li #{filho.titulo} - 
+                a(href="/classe/"+filho.codigo)= filho.codigo
+
+    if classe.nivel == 3
+        h2 Processos Relacionados
+        ul(class="lista")
+        each relacao in classe.processosRelacionados
+            if relacao.idRel == "eComplementarDe" || relacao.idRel == "eCruzadoCom" || relacao.idRel == "eSuplementoDe" || relacao.idRel == "eSuplementoPara"
+                li 
+                    a(href="/classe/"+relacao.codigo)= relacao.codigo
